@@ -1,0 +1,105 @@
+/* CSS Document */
+h3
+{
+    text-align:  center;
+    color:  #FFFFFF;
+}
+h1{
+    color:  #FFFFFF;
+    text-align:  center;
+    size: 16px;
+}
+.corpo
+{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: rgba(55, 111, 5, 0.2);
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+}
+
+.header
+{
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgba(55, 111, 5, 0.2);
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+}
+.header2
+{
+	width: 900px;
+	margin: 0 auto;
+	background-color: rgba(55, 111, 5, 0.7);
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+}
+.rodape
+{
+                   clear: both;
+                   width: 900px;
+	margin: 0 auto;
+                   color:  #3B8230;
+                   text-align:  center;
+	background-color: rgba(55, 111, 5, 0.2);
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+}
+.rodape2
+{
+                   clear: both;
+                   width: 900px;
+	margin: 0 auto;
+                   color: #FFFFFF;
+                   text-align:  center;
+	background-color: rgba(55, 111, 5, 0.7);
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+}
+#menu
+{
+	width: auto;
+	margin-left: 150px;
+	height: 30px;
+}
+#menu ul {
+	padding:0px;
+	list-style:none;
+}
+#menu ul li 
+{
+
+    display: inline;
+}
+#item a{
+    color: #FFFFFF;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+#item{
+    margin-left:  10px;
+    border-radius: 5px;
+    background-color: #69D2E7;
+    text-align: center;
+    opacity: 0.5;
+     display: inline;
+}
+.contedo{
+    width: 900px;
+    margin:  0 auto;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+   background-color: rgba(26, 50, 22, 0.2); 
+}
+.mapa{
+ width:  500px;
+ height:  500px;
+ margin:  0 auto;
+}
+.texto{
+   font-size:  15px;
+   color: #FFFFFF;
+   margin-left: 80px;
+   position:  relative;
+   padding-bottom:  20px;
+   padding-top:  80px;
+}
