@@ -5,7 +5,12 @@
             public function index(){}
             public function inscrever()
             {
-               echo 'ola mundo';
+                 $isPost = $this->request->isPost();
+                 
+                 if($isPost && !empty($this->request->data)){
+                        //Tenta salvar os dados
+                        $this->Inscricao->save($this->request->data);
+                    }
             }
         }
         
